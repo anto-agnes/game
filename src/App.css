@@ -1,0 +1,83 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fdebd0; /* Light Peach */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #fef5e7; /* Cream */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.instructions-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  text-align: center;
+}
+
+.instructions-modal button {
+  padding: 10px 20px;
+  background-color: #3498db; /* Belize Hole */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.instructions-modal button:hover {
+  background-color: #2980b9; /* Belize Hole - Darker */
+}
+
+
+h1 {
+  color: #e74c3c; /* Alizarin */
+}
+
+p {
+  color: #34495e; /* Wet Asphalt */
+}
+
+input {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ecf0f1; /* Silver */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db; /* Belize Hole */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9; /* Belize Hole - Darker */
+}
+
+#result {
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #2ecc71; /* Emerald */
+}
